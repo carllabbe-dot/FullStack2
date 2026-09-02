@@ -1,0 +1,96 @@
+:root {
+    --verde-principal: #5F8F7B;
+    --verde-oscuro: #3F6B5A;
+    --azul-claro: #DCEAF7;
+    --crema: #F7F4EE;
+    --texto: #343A40;
+    --blanco: #FFFFFF;
+}
+
+body {
+    background-color: var(--crema);
+    color: var(--texto)
+}
+
+.titulo {
+    color: #3b5c1f;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0px;
+    border-radius: 15px;
+
+}
+
+.navbar {
+    background-color: var(--blanco);
+}
+
+.navbar-brand {
+    color: var(--verde-oscuro);
+}
+
+.nav-link {
+    color: var(--verde-oscuro);
+}
+
+.nav-link:hover {
+    color: var(--verde-principal)
+}
+
+.top-bar {
+    background-color: #6f42c1;
+    color: white;
+    padding: 8px 0;
+    font-size: 14px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.urgencias-banner {
+    background-image: url("../images/nina.jpeg");
+    background-size: cover;
+    background-position: center 55%;
+
+    min-height: 550px;
+
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    border-radius: 30px;
+}
+
+.urgencias-contenido {
+    background-color: rgba(63, 107, 90, 0.45);
+    ;
+    width: 50%;
+    border-radius: 30px;
+    color: white;
+}
+
+.urgencias-contenido h2 {
+    font-size: 45px;
+    font-weight: bold;
+
+    line-height: 1.05;
+    margin-bottom: 30px;
+
+}
+
+.btn{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    background-color: var(--verde-principal);
+   
+}
