@@ -56,13 +56,17 @@
     </header>
     <section class="container text-start">
         <div class="container">
-            <li><input id="inicio-sesion-mail"> Ingrese su e-mail</li>
-            <li><input id="inicio-sesion-pswd"> Ingrese contraseña</li>
+            <li><input id="inicio-sesion-mail" type="email" placeholder="usuario@gmail.com"> Ingrese su mail</li>
+            <li><input id="inicio-sesion-pswd" type="password" placeholder="*******"> Ingrese contraseña</li>
             <div class="d-grid gap-2 d-md-block p-3 text-start">
-                <a type="button" class="btn" href="cita.html">Iniciar sesión</a>
+                <button class="btn" id="btn-inicio-sesion">
+                    Iniciar Sesión
+                </button>
             </div>
+            
         </div>
     </section>
+    <script src="js/inicio-sesion.js"></script>
 </body>
 
 </html>

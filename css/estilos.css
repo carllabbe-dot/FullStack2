@@ -37,10 +37,15 @@ h1,h2,h3{
 
 .nav-link {
     color: var(--verde-oscuro);
+    font-size: larger;
+    
 }
 
 .nav-link:hover {
-    color: var(--verde-principal)
+    color: var(--verde-principal);
+    font-weight: bolder;
+    text-decoration:dashed;
+    text-shadow: #343A40;
 }
 
 .top-bar {
@@ -120,6 +125,12 @@ h1,h2,h3{
 }
 .btn{
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    background-color: var(--verde-principal);
+    background-color:darkorange;
+    height: 55px;
+    font-size:larger;
+    font-family:Arial, Helvetica, sans-serif;
    
+}
+.btn:hover{
+    background-color: var(--verde-principal);
 }
