@@ -5,6 +5,9 @@
     --crema: #F7F4EE;
     --texto: #343A40;
     --blanco: #FFFFFF;
+    --morado-topbar: #6f42c1;
+    --naranja-botones: darkorange;
+    --sombras:#343A40; 
 }
 
 body {
@@ -14,7 +17,7 @@ body {
 }
 
 .titulo {
-    color: #3b5c1f;
+    color: var(--verde-oscuro);
     text-align: center;
     font-size: 50px;
     font-weight: bold;
@@ -28,6 +31,9 @@ body {
 }
 h1,h2,h3{
     font-family: "Poppins",sans-serif;
+}
+h3{
+    color:var(--verde-principal)
 }
 .logo-navbar {
     width:120px;
@@ -45,12 +51,12 @@ h1,h2,h3{
     color: var(--verde-principal);
     font-weight: bolder;
     text-decoration:dashed;
-    text-shadow: #343A40;
+    text-shadow: var(--sombras) ;
 }
 
 .top-bar {
-    background-color: #6f42c1;
-    color: white;
+    background-color: var(--morado-topbar);
+    color: var(--blanco);
     padding: 8px 0;
     font-size: 14px;
 }
@@ -63,7 +69,7 @@ h1,h2,h3{
 }
 
 .contact-info a {
-    color: white;
+    color: var(--blanco);
     text-decoration: none;
 }
 
@@ -80,6 +86,9 @@ h1,h2,h3{
     justify-content: flex-start;
 
     border-radius: 30px;
+}
+.imagen-agenda{
+    flex:auto;
 }
 
 .urgencias-contenido {
@@ -125,7 +134,7 @@ h1,h2,h3{
 }
 .btn{
     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-    background-color:darkorange;
+    background-color:var(--naranja-botones);
     height: 55px;
     font-size:larger;
     font-family:Arial, Helvetica, sans-serif;
@@ -133,4 +142,24 @@ h1,h2,h3{
 }
 .btn:hover{
     background-color: var(--verde-principal);
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex:1;
+}
+footer{
+    width:100%;
+}
+#titulo-cita{
+    color:var(--naranja-botones)
+}
+#btn-inicio-sesion {
+    width: auto;
+    min-width: 120px;
+    padding: 8px 16px;
+    white-space: nowrap;
 }
