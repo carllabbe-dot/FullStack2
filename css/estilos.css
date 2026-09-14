@@ -28,6 +28,7 @@ body {
 
 .navbar {
     background-color: var(--blanco);
+    
 }
 h1,h2,h3{
     font-family: "Poppins",sans-serif;
@@ -72,7 +73,10 @@ h3{
     color: var(--blanco);
     text-decoration: none;
 }
-
+.informacion-contacto{
+    color:var(--crema);
+    font-size: 13px;
+}
 .urgencias-banner {
     background-image: url("../images/nina.jpeg");
     background-size: cover;
@@ -89,6 +93,7 @@ h3{
 }
 .imagen-agenda{
     flex:auto;
+    border-radius: 30px;
 }
 
 .urgencias-contenido {
